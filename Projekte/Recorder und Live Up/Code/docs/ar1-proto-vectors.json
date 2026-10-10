@@ -1,0 +1,29 @@
+{
+ "key": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+ "nd": "404142434445464748494a4b4c4d4e4f",
+ "np": "808182838485868788898a8b8c8d8e8f",
+ "hello_read": "01404142434445464748494a4b4c4d4e4f",
+ "hello_write": "01808182838485868788898a8b8c8d8e8f",
+ "ks": "1e7ee98af7b2cd00c20ee5f27f307087781ea72836ea9250098ef29a365784b5",
+ "command": {
+  "ctr": 1,
+  "text": "STATUS",
+  "frame": "0000000166a54fc1b2bced526ce6d9e85749aba977901bf2418c"
+ },
+ "command2": {
+  "ctr": 2,
+  "text": "TIMER sleep 600",
+  "frame": "000000022d0d1dddb6887e8bd0221782c0a4c04e9fbecbc886e556ac24d054a8bee21b"
+ },
+ "response": {
+  "req": 1,
+  "first_ctr": 1,
+  "mtu": 247,
+  "payload": "{\"ok\":true,\"state\":\"recording\",\"note\":\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"}",
+  "frames": [
+   "00000001f4d5cdd7598068abb2291681525bc1a3d5b64bb73602898730d50be1368626e84d29fcf48eb5adcb82a01b224f6b305dd6cfc45f3ba4a5fcc66ce48fd43bcb0d8dc982954663d7f1557623f23d57cf9b12b907210c1d29ec6bfb4e9562794a051ae461634e8518b6f561542241d51930d8f8d58c7a4c8de57d6ab07d2bf6ed157beacfa316cb25d521fd054e7c610ea9be2f7c561eb7c8a25cdaf946cd2893ea202f9631de1ac2048196b1fbe9d1811da0ae33d756e3173ae3002d8215a789b1a2033e313cd9fb01efe99ed23fad440646fa568f68a9653fadb4a7494195f38a544cb504cf9ae18d98734db8c2494f93",
+   "0000000229e67287551853975aba5711a2eb3a730680b15e839f904059feedef20f68d5fe2d920c2fafeabb96ed23c1df3e7eac08604f18ef8d90eb41c0d7580afa1e6871b252f9ddc6576c38b78827d87917d23c364e0afdf74df0c8242ea794916d8f9e4a160baac2e07352bffc1af204302f22449d7dc966dd90be7a306a3955e39328704086497ab936d20bcee884ce84006f269f32f356123ef00e9ff9230f81e2c3ca87ed2d400f02b9f6e7369c26a30840e393a8cf51dbfdc3f2d46b37c059dbbdbac41288fd454c4e05a74f458a960486b6283a59512fc834d9b53df51c628c64fba34117a1c374aecd9099904a2f93a",
+   "000000034a526fb4baae3ef3ce79d6e8041ed4b30bab570b8223408e3dfc4c730dfaf70a3c037d2a31912f02898485d9e168f9"
+  ]
+ }
+}
